@@ -1,6 +1,6 @@
 # The-Match-Routing-Problem
 
-Imports matches of a specific league and season from API football https://api-football-v1.p.rapidapi.com and solves the Match Routing Problem using Gurobipy.
+Imports matches of a specific league and season from API football (https://api-football-v1.p.rapidapi.com) and solves the Match Routing Problem using Gurobipy.
 
 The Match Routing Problem can be stated as the following: given the set of matches (fixtures) of a league, build a trip schedule starting and ending at the same point, making sure to:
             - Watch exactly one match of each team of the league
@@ -10,3 +10,6 @@ The Match Routing Problem can be stated as the following: given the set of match
 While minimizing:
             - The Time difference between the last watched and first match watched (objective 1) and
             - Total travel time (objective 2)
+
+It also creates a map using route and directions API (https://rapidapi.com/geoapify-gmbh-geoapify/api/route-and-directions)
+
