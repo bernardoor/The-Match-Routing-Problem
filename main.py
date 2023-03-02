@@ -2,12 +2,12 @@ from fixtures import Fixtures
 from fixtureschedulingmodel import FixtureSchedulingModel
 
 if __name__ == '__main__':
-    API_football_key = "dfBKQ8FAqumshq3FcwgNIEP2MqQnp1GIP0CjsnWEvyIY3KMQsc"
+    API_football_key = "API Key"
     """ Football API key 
         Refer to https://www.api-football.com/
     """
 
-    API_Route_Directions = "dfBKQ8FAqumshq3FcwgNIEP2MqQnp1GIP0CjsnWEvyIY3KMQsc"
+    API_Route_Directions = "API Key"
     """ Route and Directions API key 
         Refer to https://rapidapi.com/geoapify-gmbh-geoapify/api/route-and-directions
     """
